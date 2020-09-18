@@ -20,6 +20,7 @@ body {
 /* || typography */
 
 h1, h2, h3 {
+  font-family: 'Baloo Tammudu 2', cursive;
   font-family: 'Bebas Neue', cursive;
   color: #2a2a2a;
 }
