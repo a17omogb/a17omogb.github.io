@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
-res.send('<p>hello world!</p>')
+
 
 app.route('/api')
   .get((req, res) => {
