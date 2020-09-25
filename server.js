@@ -9,6 +9,7 @@ const port = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
+res.send('<p>hello world!</p>')
 
 app.route('/api')
   .get((req, res) => {
@@ -16,6 +17,7 @@ app.route('/api')
   })
   .post((req, res) => {
     console.log('POST request detected');
+    res.send('<p>hello world!</p>');
   });
 
 app.listen(port, () => {
