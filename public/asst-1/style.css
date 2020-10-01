@@ -16,6 +16,8 @@ html, body {
 .header {
     margin-bottom: 10px;
     display: flex;
+    width: 100%;
+    
     
   }
 
