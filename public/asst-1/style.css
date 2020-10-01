@@ -14,9 +14,7 @@ html, body {
   /* || header layout */
 
 .header {
-    margin-bottom: 10px;
-    display: flex;
-    flex-flow: row wrap;
+
     max-width: 500px;
     height: 100px;
   }
