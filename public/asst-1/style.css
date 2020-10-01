@@ -16,6 +16,7 @@ html, body {
 .header {
     margin-bottom: 10px;
     display: flex;
+    max-height: 380px;
     
   }
 
