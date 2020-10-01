@@ -14,9 +14,9 @@ html, body {
   /* || header layout */
 
 .header {
-
-    max-width: 380px;
-    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    
   }
 
   .main, .header {
