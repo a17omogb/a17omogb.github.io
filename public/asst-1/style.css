@@ -1,0 +1,30 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+  
+  }
+  
+  body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+    background-color: #6091C3;
+  }
+
+  /* || header layout */
+
+.header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .main, .header, nav, .article, .aside, footer, section {
+  background-color: rgba(23, 78, 121, 0.913);
+  padding: 1%;
+}
