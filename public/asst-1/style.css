@@ -30,6 +30,11 @@ html {
     font-weight: 700;
 
   }
+
+  .wrapper {
+
+    margin-right: 15px;
+  }
   .content {
     margin-right: 15px;
     flex-wrap: wrap;
