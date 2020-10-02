@@ -17,7 +17,7 @@ html {
 .header {
     background-color: rgba(23, 78, 121, 0.913);
     margin-bottom: 15px;
-    padding: 100%;
+    padding: 15px;
     display: flex;
     width: 100%;
     /* margin: 0; */
