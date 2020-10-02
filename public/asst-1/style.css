@@ -8,14 +8,14 @@ html {
     width: 70%;
     min-width: 800px;
     margin: 0 auto;
-    background-color: rgba(153, 194, 225, 0.913);
+    background-color: #CADCFF;
     font-family: 'Baloo Tammudu 2', cursive;
   }
 
   /* || header layout */
 
 .header {
-    background-color: rgba(23, 78, 121, 0.913);
+    background-color: #546380;
     margin-bottom: 15px;
     padding: 15px;
     display: flex;
@@ -36,6 +36,7 @@ html {
     flex: 0 1 auto;
     font-family: 'Baloo Tammudu 2', cursive;
     font-weight: 600;
+    background-color: #546380;
   }
 
   
@@ -47,7 +48,10 @@ html {
     font-family: 'Baloo Tammudu 2', cursive;
     font-weight: 400;
   }
+.second_header{
+   background-color: #546380
 
+}
   img {
 
     width: 50px;
