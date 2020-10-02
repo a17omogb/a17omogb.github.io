@@ -8,13 +8,13 @@ html, body {
     width: 70%;
     min-width: 800px;
     margin: 0 auto;
-    background-color: rgba(23, 78, 121, 0.913);
+    background-color: rgba(153, 194, 225, 0.913);
   }
 
   /* || header layout */
 
 .header {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: flex;
     width: 100%;
     margin: 0;
@@ -29,12 +29,14 @@ html, body {
   .content {
     margin-right: 15px;
     flex-wrap: wrap;
+    flex: 1 0 auto;
   }
 
   
   .container {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
   img {
