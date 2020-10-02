@@ -17,8 +17,20 @@ html, body {
     margin-bottom: 10px;
     display: flex;
     width: 100%;
+
     
-    
+  }
+
+  .container {
+    display: flex
+  }
+
+  img {
+
+    width: 50px;
+
+
+
   }
 
   .main, .header {
