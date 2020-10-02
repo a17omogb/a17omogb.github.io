@@ -1,5 +1,5 @@
 
-html, body {
+html {
     margin: 0;
     padding: 0;
   }
@@ -9,27 +9,32 @@ html, body {
     min-width: 800px;
     margin: 0 auto;
     background-color: rgba(153, 194, 225, 0.913);
+    font-family: 'Baloo Tammudu 2', cursive;
   }
 
   /* || header layout */
 
 .header {
+    background-color: rgba(23, 78, 121, 0.913);
     margin-bottom: 15px;
     display: flex;
     width: 100%;
-    margin: 0;
+    /* margin: 0; */
     
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
-    
+    padding: 1%;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: 700;
 
   }
   .content {
     margin-right: 15px;
     flex-wrap: wrap;
-    flex: 1 0 auto;
+    flex: 0 1 auto;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: 600;
   }
 
   
@@ -37,17 +42,13 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: 400;
   }
 
   img {
 
     width: 50px;
 
-
-
   }
-
-  .main, .header {
-  background-color: rgba(23, 78, 121, 0.913);
-  padding: 1%;
-}
