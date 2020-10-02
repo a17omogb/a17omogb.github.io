@@ -27,13 +27,14 @@ html, body {
 
   }
   .content {
-
+    margin-right: 15px;
     flex-wrap: wrap;
   }
 
   
   .container {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
   }
 
   img {
