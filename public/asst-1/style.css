@@ -26,6 +26,10 @@ html, body {
     
 
   }
+  .content {
+
+    flex-wrap: wrap;
+  }
 
   
   .container {
