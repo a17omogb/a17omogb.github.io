@@ -1,13 +1,6 @@
 
-html {
-    margin: 0;
-    padding: 0;
-  }
-  
   body {
-    width: 70%;
-    min-width: 800px;
-    margin: 0 auto;
+
     background-color: #CADCFF;
     font-family: 'Baloo Tammudu 2', cursive;
     font-weight: 400;
@@ -44,9 +37,11 @@ html {
     color: black;
   }
 
+  
+
 
   .content {
-    flex-wrap: wrap;
+
     flex: 0 1 auto;
     width: 175px;
     margin-right: 15px;
@@ -79,11 +74,7 @@ html {
     line-height: 1.2;
   }
 
-.second_header{
-   background-color: #CCBD9B;
-   font-weight: 400;
 
-}
 
 .description{
   flex: 0 1 auto;
@@ -91,6 +82,9 @@ html {
   background: white;
   padding: 15px;
   border: dashed 1px;
+  background-color: #CCBD9B;
+  font-weight: 400;
+
 }
 
 
